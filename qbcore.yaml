@@ -215,7 +215,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-garages
     ref: main
-    src: https://github.com/qbcore-framework/qb-garages
+    src: https://github.com/NYC-After-Hours/qb-garages
 
   - action: download_github
     dest: ./resources/[qb]/qb-ambulancejob
