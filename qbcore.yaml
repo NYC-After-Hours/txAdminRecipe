@@ -125,11 +125,6 @@ tasks:
     
   # Downloading QBCore resources
   - action: download_github
-    dest: ./resources/[qb]/qb-core
-    ref: main
-    src: https://github.com/qbcore-framework/qb-core
-
-  - action: download_github
     dest: ./resources/[qb]/qb-scoreboard
     ref: main
     src: https://github.com/qbcore-framework/qb-scoreboard
@@ -462,6 +457,12 @@ tasks:
     dest: ./resources/[qb]/qb-loading
     ref: main
     src: https://github.com/qbcore-framework/qb-loading
+
+  # everything below here is the modified scripts
+  - action: download_github
+    dest: ./resources/[qb]/qb-core
+    ref: main
+    src: https://github.com/NYC-After-Hours/qb-core
 
   # Clean up
   - action: remove_path
